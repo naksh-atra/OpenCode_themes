@@ -1,0 +1,218 @@
+{
+  "$schema": "https://opencode.ai/theme.json",
+  "defs": {
+    "sunsetDark": "#1a1423",
+    "sunsetDarker": "#0f0a14",
+    "sunsetPurple": "#6b4c7a",
+    "sunsetPink": "#d4678a",
+    "sunsetOrange": "#e87a4f",
+    "sunsetGold": "#f4a259",
+    "sunsetYellow": "#f9c74f",
+    "sunsetTeal": "#4a9d8e",
+    "sunsetMuted": "#9a8ca1",
+    "sunsetLight": "#e8dfe8",
+    "sunsetWhite": "#f5f0f7"
+  },
+  "theme": {
+    "primary": {
+      "dark": "sunsetPink",
+      "light": "sunsetOrange"
+    },
+    "secondary": {
+      "dark": "sunsetPurple",
+      "light": "sunsetTeal"
+    },
+    "accent": {
+      "dark": "sunsetGold",
+      "light": "sunsetYellow"
+    },
+    "error": {
+      "dark": "#e06c75",
+      "light": "#c74045"
+    },
+    "warning": {
+      "dark": "sunsetOrange",
+      "light": "#d65d2e"
+    },
+    "success": {
+      "dark": "#98c379",
+      "light": "#6a9e5a"
+    },
+    "info": {
+      "dark": "sunsetTeal",
+      "light": "#3d8c80"
+    },
+    "text": {
+      "dark": "sunsetLight",
+      "light": "sunsetDark"
+    },
+    "textMuted": {
+      "dark": "sunsetMuted",
+      "light": "sunsetPurple"
+    },
+    "background": {
+      "dark": "sunsetDark",
+      "light": "sunsetWhite"
+    },
+    "backgroundPanel": {
+      "dark": "#241a2e",
+      "light": "#f0e9f3"
+    },
+    "backgroundElement": {
+      "dark": "#2d2038",
+      "light": "#e5dce6"
+    },
+    "border": {
+      "dark": "sunsetPurple",
+      "light": "#b8a3c2"
+    },
+    "borderActive": {
+      "dark": "sunsetPink",
+      "light": "sunsetOrange"
+    },
+    "borderSubtle": {
+      "dark": "#3d2f4a",
+      "light": "#d4c8d8"
+    },
+    "diffAdded": {
+      "dark": "#98c379",
+      "light": "#6a9e5a"
+    },
+    "diffRemoved": {
+      "dark": "#e06c75",
+      "light": "#c74045"
+    },
+    "diffContext": {
+      "dark": "sunsetMuted",
+      "light": "sunsetPurple"
+    },
+    "diffHunkHeader": {
+      "dark": "sunsetPurple",
+      "light": "#b8a3c2"
+    },
+    "diffHighlightAdded": {
+      "dark": "#98c379",
+      "light": "#6a9e5a"
+    },
+    "diffHighlightRemoved": {
+      "dark": "#e06c75",
+      "light": "#c74045"
+    },
+    "diffAddedBg": {
+      "dark": "#2a3d2a",
+      "light": "#e6f0e6"
+    },
+    "diffRemovedBg": {
+      "dark": "#3d2a2d",
+      "light": "#f5e6e6"
+    },
+    "diffContextBg": {
+      "dark": "#241a2e",
+      "light": "#f0e9f3"
+    },
+    "diffLineNumber": {
+      "dark": "sunsetPurple",
+      "light": "#9a7aab"
+    },
+    "diffAddedLineNumberBg": {
+      "dark": "#2a3d2a",
+      "light": "#e6f0e6"
+    },
+    "diffRemovedLineNumberBg": {
+      "dark": "#3d2a2d",
+      "light": "#f5e6e6"
+    },
+    "markdownText": {
+      "dark": "sunsetLight",
+      "light": "sunsetDark"
+    },
+    "markdownHeading": {
+      "dark": "sunsetPink",
+      "light": "sunsetOrange"
+    },
+    "markdownLink": {
+      "dark": "sunsetTeal",
+      "light": "sunsetTeal"
+    },
+    "markdownLinkText": {
+      "dark": "sunsetGold",
+      "light": "sunsetOrange"
+    },
+    "markdownCode": {
+      "dark": "sunsetGold",
+      "light": "sunsetOrange"
+    },
+    "markdownBlockQuote": {
+      "dark": "sunsetPurple",
+      "light": "sunsetPurple"
+    },
+    "markdownEmph": {
+      "dark": "sunsetPink",
+      "light": "sunsetPink"
+    },
+    "markdownStrong": {
+      "dark": "sunsetGold",
+      "light": "sunsetOrange"
+    },
+    "markdownHorizontalRule": {
+      "dark": "sunsetPurple",
+      "light": "sunsetMuted"
+    },
+    "markdownListItem": {
+      "dark": "sunsetPink",
+      "light": "sunsetOrange"
+    },
+    "markdownListEnumeration": {
+      "dark": "sunsetGold",
+      "light": "sunsetTeal"
+    },
+    "markdownImage": {
+      "dark": "sunsetTeal",
+      "light": "sunsetTeal"
+    },
+    "markdownImageText": {
+      "dark": "sunsetGold",
+      "light": "sunsetOrange"
+    },
+    "markdownCodeBlock": {
+      "dark": "sunsetLight",
+      "light": "sunsetDark"
+    },
+    "syntaxComment": {
+      "dark": "sunsetMuted",
+      "light": "sunsetPurple"
+    },
+    "syntaxKeyword": {
+      "dark": "sunsetPink",
+      "light": "sunsetOrange"
+    },
+    "syntaxFunction": {
+      "dark": "sunsetTeal",
+      "light": "sunsetTeal"
+    },
+    "syntaxVariable": {
+      "dark": "sunsetGold",
+      "light": "sunsetOrange"
+    },
+    "syntaxString": {
+      "dark": "sunsetGold",
+      "light": "sunsetOrange"
+    },
+    "syntaxNumber": {
+      "dark": "sunsetOrange",
+      "light": "sunsetPink"
+    },
+    "syntaxType": {
+      "dark": "sunsetTeal",
+      "light": "sunsetTeal"
+    },
+    "syntaxOperator": {
+      "dark": "sunsetPink",
+      "light": "sunsetOrange"
+    },
+    "syntaxPunctuation": {
+      "dark": "sunsetMuted",
+      "light": "sunsetPurple"
+    }
+  }
+}
